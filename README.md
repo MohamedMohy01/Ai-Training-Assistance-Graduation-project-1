@@ -1,7 +1,7 @@
-# Graduation Project 1: AI-Powered Exercise Recognition
+# Graduation Project 1 (Exercise AI): AI-Powered Exercise Recognition
 
 ## Overview
-GradFinal is an Android application developed as a graduation project to recognize and classify physical exercises in real-time using the device camera and on-device machine learning. The app leverages pose estimation and a custom-trained neural network to identify exercises such as sit-ups, jumping jacks, high knees, and steam engines, providing instant feedback to users.
+Exercise AI is a graduation project solution to recognize and classify physical exercises in real-time using the device camera and on-device machine learning. The app leverages pose estimation and a custom-trained neural network to identify exercises such as sit-ups, jumping jacks, high knees, and steam engines, providing instant feedback to users.
 
 ## Features
 - **Real-Time Exercise Recognition:** Uses the device camera and MediaPipe pose estimation to track body movements.
@@ -15,7 +15,7 @@ GradFinal is an Android application developed as a graduation project to recogni
 - **CameraX** for camera integration
 - **MediaPipe** for pose landmark detection
 - **TensorFlow Lite** for on-device ML inference
-- **Custom LSTM Model** trained on pose sequences (see `graduationSaturday.ipynb` for training pipeline)
+- **Custom LSTM Model** trained on pose sequences (see `GradProject_1_Notebook.ipynb` for training pipeline)
 
 ## How It Works
 1. **Pose Detection:** The app uses MediaPipe to extract 33 body landmarks from the camera feed in real time.
@@ -48,7 +48,7 @@ GradFinal is an Android application developed as a graduation project to recogni
   - `pose_landmarker_lite.task`: MediaPipe pose landmark model.
 
 ## Model Training
-- The model was trained using pose landmark data and an LSTM neural network. For details, see the `graduationSaturday.ipynb` notebook in the root directory.
+- The model was trained using pose landmark data and an LSTM neural network. For details, see the `GradProject_1_Notebook.ipynb` notebook in the root directory.
 - Achieved test accuracy: **~99.8%** on the validation set.
 
 ## Team Members

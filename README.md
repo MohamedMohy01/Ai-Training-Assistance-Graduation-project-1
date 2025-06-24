@@ -1,4 +1,4 @@
-# GradFinal: AI-Powered Exercise Recognition Android App
+# Graduation Project 1: AI-Powered Exercise Recognition
 
 ## Overview
 GradFinal is an Android application developed as a graduation project to recognize and classify physical exercises in real-time using the device camera and on-device machine learning. The app leverages pose estimation and a custom-trained neural network to identify exercises such as sit-ups, jumping jacks, high knees, and steam engines, providing instant feedback to users.

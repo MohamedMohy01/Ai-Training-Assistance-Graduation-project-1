@@ -51,7 +51,7 @@ Exercise AI is a graduation project solution to recognize and classify physical 
 - The model was trained using pose landmark data and an LSTM neural network. For details, see the `GradProject_1_Notebook.ipynb` notebook in the root directory.
 - Achieved test accuracy: **~99.8%** on the validation set.
 
-## Team Members
+## Team Members (Group 3)
 - **Ali Gaballah** - 120210005
 - **Ahmed Aboelnaga** - 120210203
 - **Yahia Ali** - 120210302
